@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Praticas
 {
@@ -6,7 +7,13 @@ namespace Praticas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var listaJogos = new List<Jogo>();
+
+
+            listaJogos.Add(new Jogo(1, "WarZone", Classificao.perfeito));
+            listaJogos.Add(new Jogo(2, "MineCraft", Classificao.bom));
+
+
         }
     }
 }
