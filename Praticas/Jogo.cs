@@ -20,6 +20,7 @@ namespace Praticas
 
     public enum Classificao
     {
+        orrivel = 0,
         ruim = 1,
         meh =2,
         bom = 3,
