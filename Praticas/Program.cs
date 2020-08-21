@@ -12,7 +12,7 @@ namespace Praticas
 
             listaJogos.Add(new Jogo(1, "WarZone", Classificao.perfeito));
             listaJogos.Add(new Jogo(2, "MineCraft", Classificao.bom));
-
+            listaJogos.Add(new Jogo(3, "League of Legends", Classificao.bom));
 
         }
     }
