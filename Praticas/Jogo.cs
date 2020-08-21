@@ -24,5 +24,7 @@ namespace Praticas
         ruim = 1,
         meh =2,
         bom = 3,
+        perfeito = 4,
+        Troll = 5,
     }
 }
