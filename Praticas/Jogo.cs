@@ -26,5 +26,6 @@ namespace Praticas
         bom = 3,
         perfeito = 4,
         Troll = 5,
+        seila = 6,
     }
 }
