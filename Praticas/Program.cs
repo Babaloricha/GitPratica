@@ -9,7 +9,7 @@ namespace Praticas
         {
             var listaJogos = new List<Jogo>();
 
-
+            monitora("inicio");
             listaJogos.Add(new Jogo(1, "WarZone", Classificao.perfeito));
             listaJogos.Add(new Jogo(2, "MineCraft", Classificao.bom));
             listaJogos.Add(new Jogo(3, "League of Legends", Classificao.bom));
@@ -18,9 +18,15 @@ namespace Praticas
             listaJogos.Add(new Jogo(6, "League of Legends", Classificao.bom));
             listaJogos.Add(new Jogo(4, "CS", Classificao.ruim));
             listaJogos.Add(new Jogo(7, "The Sims", Classificao.bom));
-            listaJogos.Add(new Jogo(8, "Mario", Classificao.perfeito));
-            listaJogos.Add(new Jogo(8, "Mario2", Classificao.perfeito));
+            monitora("fim");
 
+        }
+
+
+        public static void monitora(string msg)
+        {
+            var tempo = DateTime.Now.ToString();
+            Console.WriteLine($"{tempo} - {msg} - {(int)Classificao.bom}");
         }
     }
 }
