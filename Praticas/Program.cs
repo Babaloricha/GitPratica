@@ -27,6 +27,7 @@ namespace Praticas
         {
             var tempo = DateTime.Now.ToString();
             Console.WriteLine($"{tempo} - {msg} - {(int)Classificao.bom}");
+            Console.WriteLine("1");
         }
     }
 }
