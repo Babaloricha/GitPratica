@@ -29,6 +29,7 @@ namespace Praticas
             Console.WriteLine($"{tempo} - {msg} - {(int)Classificao.bom}");
             Console.WriteLine("1");
             Console.WriteLine("2");
+            Console.WriteLine("3");
         }
     }
 }
