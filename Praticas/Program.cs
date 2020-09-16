@@ -18,6 +18,7 @@ namespace Praticas
             listaJogos.Add(new Jogo(6, "League of Legends", Classificao.bom));
             listaJogos.Add(new Jogo(4, "CS", Classificao.ruim));
             listaJogos.Add(new Jogo(7, "The Sims", Classificao.bom));
+            listaJogos.Add(new Jogo(7, "The Sims", Classificao.bom));
             monitora("fim");
 
         }
