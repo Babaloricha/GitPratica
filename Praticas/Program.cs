@@ -23,6 +23,9 @@ namespace Praticas
 
             monitora("fim");
 
+            var trata = new TrataString();
+            trata.TrataValorMonetario("");
+            Console.WriteLine(trata.resultado);
         }
 
 
